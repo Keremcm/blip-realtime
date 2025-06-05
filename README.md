@@ -11,7 +11,8 @@ Bu proje, **Salesforce BLIP (Bootstrapped Language Image Pretraining)** modeli k
 
 ## 🖼️ Demo
 
-![Demo](demo.png) <!-- Demo gif veya ekran görüntüsü eklersen buraya koy -->
+![8bd40d8a-cd52-4431-9be8-d131c8e02452](https://github.com/user-attachments/assets/1d46cf9f-3540-4ffd-9046-35b94616700f)
+<!-- Demo gif veya ekran görüntüsü eklersen buraya koy -->
 
 ## 🧠 Kullanılan Teknolojiler
 
