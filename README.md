@@ -1,49 +1,74 @@
-# 🎥 Anlık Görüntü Yorumlama – BLIP ile Webcam Açıklaması
+#############################################################################
+# 🎥 Real-Time Image Captioning – Webcam Description with BLIP
+#############################################################################
+#
+# This project generates real-time image captions from a webcam feed using
+# the Salesforce BLIP (Bootstrapped Language Image Pretraining) model.
+#
+#############################################################################
 
-Bu proje, **Salesforce BLIP (Bootstrapped Language Image Pretraining)** modeli kullanarak webcam'den alınan görüntüler üzerine gerçek zamanlı açıklamalar üretir.
+#############################################################################
+# 🚀 Features
+#############################################################################
+# - Real-time webcam capture
+# - Automatic image caption generation (image captioning)
+# - Minimal Flask-based web interface
+# - Simple and extensible architecture
+#
+#############################################################################
 
-## 🚀 Özellikler
+#############################################################################
+# 🖼️ Demo
+#############################################################################
+# Demo image or GIF can be placed here in the README.
+# Example: Live webcam feed with dynamically generated captions.
+#
+#############################################################################
 
-- Gerçek zamanlı webcam görüntüsü
-- Görüntülere otomatik açıklama oluşturma (captioning)
-- Flask tabanlı sade bir web arayüzü
-- Basit ve genişletilebilir altyapı
+#############################################################################
+# 🧠 Technologies Used
+#############################################################################
+# - Python
+# - Flask
+# - OpenCV
+# - HuggingFace Transformers
+# - BLIP (Large): Salesforce/blip-image-captioning-large
+#
+#############################################################################
 
-## 🖼️ Demo
+#############################################################################
+# ⚙️ Installation
+#############################################################################
+# Requirements:
+# - Python 3.8 or higher
+#
+# Install dependencies using pip:
+#
+#   pip install flask transformers pillow opencv-python
+#
+#############################################################################
 
-![8bd40d8a-cd52-4431-9be8-d131c8e02452](https://github.com/user-attachments/assets/1d46cf9f-3540-4ffd-9046-35b94616700f)
-<!-- Demo gif veya ekran görüntüsü eklersen buraya koy -->
+#############################################################################
+# ▶ Running the Application
+#############################################################################
+# Start the Flask application:
+#
+#   python app.py
+#
+# Then open your browser and navigate to:
+#   http://localhost:5000
+#
+#############################################################################
 
-## 🧠 Kullanılan Teknolojiler
-
-- Python
-- Flask
-- OpenCV
-- HuggingFace Transformers
-- BLIP (Large) – `Salesforce/blip-image-captioning-large`
-
-## ⚙️ Kurulum
-
-### Gereksinimler
-- Python 3.8+
-- pip ile:
-
-```bash
-pip install flask transformers pillow opencv-python
-```
-## Çalıştırma
-
-```bash
-python app.py
-```
-Ardından tarayıcınızdan http://localhost:5000 adresine gidin.
-
-## 📂 Proje Yapısı
-
-.
-├── app.py              # Flask backend ve görüntü işleme
-├── templates/
-│   └── index.html      # Web arayüzü
-├── requirements.txt    # Açıklama
-├── .gitignore          # Git ignore dosyası
-└── README.md           # README dosyası
+#############################################################################
+# 📂 Project Structure
+#############################################################################
+# .
+# ├── app.py               # Flask backend and image processing logic
+# ├── templates/
+# │   └── index.html       # Web interface
+# ├── requirements.txt     # Project dependencies
+# ├── .gitignore           # Git ignore rules
+# └── README.md            # Project documentation
+#
+#############################################################################
